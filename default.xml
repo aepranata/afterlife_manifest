@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="gitea"
+           fetch="https://gitea.com"
+           revision="refs/heads/14" />
+
+  <default revision="refs/heads/14"
+           remote="gitea"
+           sync-j="4" />
+
+  <project path="external/cronet" name="AfterlifeOS/external_cronet" groups="pdk" remote="gitea" />  
+  <project path="packages/modules/Connectivity" name="AfterlifeOS/packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="gitea" />
+  <project path="system/core" name="AfterlifeOS/system_core" groups="pdk" remote="gitea" />  
+  <project path="external/calyx/datura" name="AfterlifeOS/external_calyx_datura" remote="gitea" />
+  <project path="packages/apps/Updater" name="AfterlifeOS/packages_apps_Updater" remote="gitea" />
+  <project path="prebuilts/calyx/datura" name="AfterlifeOS/prebuilts_calyx_datura" remote="gitea" />
+  <project path="prebuilts/exthm-sdk" name="AfterlifeOS/prebuilts_exthmui-sdk" remote="gitea" />
+</manifest>
