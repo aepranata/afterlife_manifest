@@ -26,7 +26,6 @@
   <project path="art" name="AfterlifeOS/art" groups="pdk" />
   <project path="bionic" name="AfterlifeOS/bionic" groups="pdk" />
   <project path="bootable/recovery" name="AfterlifeOS/bootable_recovery" groups="pdk" />
-  <project path="external/cronet" name="AfterlifeOS/external_cronet" groups="pdk" remote="gitea" />
   <project path="external/dtc" name="AfterlifeOS/external_dtc" groups="pdk" />
   <project path="external/exfatprogs" name="AfterlifeOS/external_exfatprogs" groups="pdk" />
   <project path="external/gptfdisk" name="AfterlifeOS/external_gptfdisk" groups="pdk" />
@@ -81,14 +80,12 @@
   <project path="packages/apps/WallpaperPicker2" name="AfterlifeOS/packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" />
   <project path="packages/inputmethods/LatinIME" name="AfterlifeOS/packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/modules/Bluetooth" name="AfterlifeOS/packages_modules_Bluetooth" groups="pdk" />
-  <project path="packages/modules/Connectivity" name="AfterlifeOS/packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="gitea" />
   <project path="packages/modules/Permission" name="AfterlifeOS/packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Wifi" name="AfterlifeOS/packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="packages/providers/TelephonyProvider" name="AfterlifeOS/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="AfterlifeOS/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="AfterlifeOS/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bpf" name="AfterlifeOS/system_bpf" groups="pdk" />
-  <project path="system/core" name="AfterlifeOS/system_core" groups="pdk" remote="gitea" />
   <project path="system/media" name="AfterlifeOS/system_media" groups="pdk" />
   <project path="system/security" name="AfterlifeOS/system_security" groups="pdk" />
   <project path="system/sepolicy" name="AfterlifeOS/system_sepolicy" groups="pdk" />
@@ -98,21 +95,16 @@
   <!-- AfterLife additions -->
   <project path="device/afterlife/ota" name="AfterlifeOS/device_afterlife_ota" />
   <project path="device/afterlife/sepolicy" name="AfterlifeOS/device_afterlife_sepolicy" />
-  <project path="external/calyx/datura" name="AfterlifeOS/external_calyx_datura" remote="gitea" />
   <project path="hardware/afterlife/interfaces" name="AfterlifeOS/hardware_afterlife_interfaces" />
   <project path="hardware/xiaomi" name="AfterlifeOS/hardware_xiaomi" revision="14" />
   <project path="manifest" name="AfterlifeOS/android_manifest" />
   <project path="packages/apps/AfterLab" name="AfterlifeOS/packages_apps_AfterLab" />
   <project path="packages/apps/GameSpace" name="AfterlifeOS/packages_apps_GameSpace" />
   <project path="packages/apps/ParanoidSense" name="AfterlifeOS/packages_apps_ParanoidSense" />
-  <project path="packages/apps/Updater" name="AfterlifeOS/packages_apps_Updater" remote="gitea" />
   <project path="packages/overlays/Themes" name="AfterlifeOS/packages_overlays_Themes" />
-  <project path="prebuilts/calyx/datura" name="AfterlifeOS/prebuilts_calyx_datura" remote="gitea" />
-  <project path="prebuilts/exthm-sdk" name="AfterlifeOS/prebuilts_exthmui-sdk" remote="gitea" />
   <project path="vendor/afterlife" name="AfterlifeOS/vendor_afterlife" />
   <project path="vendor/afterlife/signed" name="AfterlifeOS/vendor_signed" />
   <project path="vendor/afterlife-ui" name="AfterlifeOS/vendor_AfterUI" />
-  <project path="vendor/gms" name="AfterlifeOS/vendor_gms" remote="gitea" clone-depth="1" />
   <project path="vendor/support" name="AfterlifeOS/vendor_support" />
 
   <!-- CodeLinaro additions -->
