@@ -96,13 +96,16 @@
   <!-- AfterLife additions -->
   <project path="device/afterlife/ota" name="device_afterlife_ota" />
   <project path="device/afterlife/sepolicy" name="device_afterlife_sepolicy" />
+  <project path="external/FadingEdgeLayout" name="AfterlifeOS/external_FadingEdgeLayout" />
   <project path="hardware/afterlife/interfaces" name="hardware_afterlife_interfaces" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" revision="14" />
   <project path="manifest" name="android_manifest" />
   <project path="packages/apps/AfterLab" name="packages_apps_AfterLab" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" />
+  <project path="packages/apps/OmniStyle" name="AfterlifeOS/packages_apps_OmniStyle" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" />
+  <project path="packages/services/OmnuJaws" name="AfterlifeOS/packages_services_OmniJaws" />
   <project path="vendor/afterlife" name="vendor_afterlife" />
   <project path="vendor/afterlife/signed" name="vendor_signed" />
   <project path="vendor/afterlife-ui" name="vendor_AfterUI" />
