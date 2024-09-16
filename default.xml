@@ -86,7 +86,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bpf" name="system_bpf" groups="pdk" />
-  <project path="system/core" name="AfterlifeOS/system_core" groups="pdk" />
+  <project path="system/core" name="system_core" groups="pdk" />
   <project path="system/media" name="system_media" groups="pdk" />
   <project path="system/security" name="system_security" groups="pdk" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" />
@@ -96,16 +96,16 @@
   <!-- AfterLife additions -->
   <project path="device/afterlife/ota" name="device_afterlife_ota" />
   <project path="device/afterlife/sepolicy" name="device_afterlife_sepolicy" />
-  <project path="external/FadingEdgeLayout" name="AfterlifeOS/external_FadingEdgeLayout" />
+  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" />
   <project path="hardware/afterlife/interfaces" name="hardware_afterlife_interfaces" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" revision="14" />
   <project path="manifest" name="android_manifest" />
   <project path="packages/apps/AfterLab" name="packages_apps_AfterLab" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" />
-  <project path="packages/apps/OmniStyle" name="AfterlifeOS/packages_apps_OmniStyle" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" />
-  <project path="packages/services/OmnuJaws" name="AfterlifeOS/packages_services_OmniJaws" />
+  <project path="packages/services/OmnuJaws" name="packages_services_OmniJaws" />
   <project path="vendor/afterlife" name="vendor_afterlife" />
   <project path="vendor/afterlife/signed" name="vendor_signed" />
   <project path="vendor/afterlife-ui" name="vendor_AfterUI" />
